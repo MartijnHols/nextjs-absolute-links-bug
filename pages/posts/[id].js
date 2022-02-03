@@ -6,7 +6,7 @@ import { getAllPostIds, getPostData } from '../../lib/posts'
 export default function Post({ postData }) {
   return (
     <Layout>
-      <Link href="https://nextjs.org">Test</Link>
+      <Link href="https://nextjs.org">Absolute</Link> | <Link href="/relative">Relative</Link>
     </Layout>
   )
 }
